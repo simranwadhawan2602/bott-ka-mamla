@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+    .div1{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        background-color: brown;
+        position: absolute;
+        animation-name: nothing;
+        animation-duration: 5s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes nothing{
+        0%{
+            top: 0;
+            left: 0;
+            
+        }
+        25%{
+            left: 400px;
+            top: 0;
+            background-image: linear-gradient(purple,red)
+        }
+        50%{
+            left: 400px;
+            top: 400px;
+        }
+        75%{
+            left: 0;
+            top: 400px;
+        }
+        100%{
+            left: 0;
+            top: 0;
+        }
+    }
